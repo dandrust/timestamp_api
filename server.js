@@ -33,4 +33,4 @@ app.get('/:string', function (req, res) {
   res.end(JSON.stringify(response));
 });
 
-app.listen(process.env.port || 8080);
+app.listen(process.env.PORT || 8080);
